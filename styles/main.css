@@ -46,6 +46,7 @@ header {
 body {
     font-family: RijksText,Arial,sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 .navbar-nav-ul {
