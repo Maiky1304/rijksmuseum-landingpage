@@ -1,0 +1,436 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: RijksText;
+}
+
+*, ::before, ::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: black;
+}
+
+a {
+    color: white;
+}
+
+.navbar-links > li:hover {
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02);
+}
+
+header {
+    background-image: url('../images/nachtwacht.png');
+    background-position: top;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+body {
+    font-family: RijksText,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none;
+    padding: 40px;
+}
+
+.navbar-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+}
+
+.navbar-links > li {
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 75vh;
+}
+
+.rijks-logo {
+    width: 1060px;
+    height: 131px;
+}
+
+.hidden {
+    display: none;
+}
+
+.information {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+}
+
+.text {
+    background: #748CAB;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 50px;
+    padding: 50px 60px;
+    font-size: 1.4rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.text > .title {
+    font-size: 4rem;
+    -ms-grid-column-align: center;
+        justify-self: center;
+}
+
+.image {
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+}
+
+#geschiedenis > .image {
+    background-image: url('../images/geschiedenis.png');
+}
+
+#tentoonstelling {
+    background-image: url('../images/melkmeisje.png');
+    background-position: center;
+}
+
+#tentoonstelling > div > h2 {
+    font-size: 5rem;
+}
+
+#tentoonstelling > div > span {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.van-gogh-portret {
+    background-image: url('../images/zelfportret-gogh.png');
+}
+
+.contactinfocard {
+    background-image: url('../images/contactinfocard.png');
+}
+
+.bedreigde-zwaan {
+    background-image: url('../images/bedreigdezwaan.png');
+}
+
+.kimono {
+    background-image: url('../images/kimono.png');
+}
+
+.voorhal {
+    background-image: url('../images/voorhal.png');
+}
+
+.contactinfo {
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/contactinfo.png');
+    background-size: cover;
+}
+
+#bezoekersinformatie {
+    background-image: url('../images/bezoekersinfo.png');
+    background-position: center;
+    background-size: cover;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#contactinformatie {
+    background-image: url('../images/contactheader.png');
+    background-position: center;
+    background-size: cover;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#bezoekersinformatie, #contactinformatie > h2 {
+    font-size: 5rem;
+}
+
+#contactinformatie > h2 {
+    margin-left: 5rem;
+}
+
+.alg-info > div > h2 {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+}
+
+.alg-info > .openingstijden > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 300px;
+}
+
+.footer {
+    background: black;
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.ocw {
+    height: 50px;
+    width: 138px;
+}
+
+.philips {
+    height: 25px;
+    width: 66px;
+}
+
+.vriendenloterij {
+    height: 25px;
+    width: 76px;
+}
+
+.ing {
+    height: 25px;
+    width: 66px;
+}
+
+.kpn {
+    height: 25px;
+    width: 55px;
+}
+
+.footer-brands {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+}
+
+.footer-credits {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: px 0;
+}
+
+.footer-credits-names {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.footer-credits > hr {
+    margin: 18px -50px;
+}
+
+.footer-credits-names > h3 {
+    padding: 0 15px;
+}
+
+.top-btn {
+    position: fixed;
+    padding: 10px;
+    right: 50px;
+    bottom: 50px;
+    width: 75px;
+    height: 75px;
+    background: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 26px;
+    border-radius: 25%;
+    -webkit-animation: pop 3s infinite;
+            animation: pop 3s infinite;
+    cursor: pointer;
+    color: black;
+}
+
+@-webkit-keyframes pop {
+    20%, 50%, 80%, to { -webkit-transform: translateY(0); transform: translateY(0) }
+    40% {
+        -webkit-transform: translateY(10px);
+                transform: translateY(10px);
+    }
+}
+
+@keyframes pop {
+    20%, 50%, 80%, to { -webkit-transform: translateY(0); transform: translateY(0) }
+    40% {
+        -webkit-transform: translateY(10px);
+                transform: translateY(10px);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .rijks-logo {
+        width: 331px;
+        height: 40px;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .information {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text > .title {
+        font-size: 3rem;
+        -ms-grid-column-align: center;
+            justify-self: center;
+    }
+
+    #tentoonstelling > div > h2 {
+        font-size: 2.5rem;
+    }
+
+    #tentoonstelling > div > span {
+        font-size: 1.25rem;
+        font-weight: lighter;
+    }
+
+    #bezoekersinformatie > h2 {
+        font-size: 1.5rem;
+    }
+
+    #contactinformatie > h2 {
+        font-size: 2.5rem;
+    }
+
+    .contactinfo {
+        display: none;
+    }
+
+    #contactinformatie {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    #contactinformatie > h2 {
+        margin-left: 0;
+    }
+}
