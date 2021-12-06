@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62f2d9d5-accd-42a0-a428-837426ec8b4c" name="Changes" comment="x scroll bar is weg en de contact info text is iets kleiner dan dat het was" />
+    <list default="true" id="62f2d9d5-accd-42a0-a428-837426ec8b4c" name="Changes" comment="x scroll bar is weg en de contact info text is iets kleiner dan dat het was">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/contactheader.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/contactheader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/contactinfo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/contactinfo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utilities.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +57,7 @@
       <workItem from="1638801923708" duration="2196000" />
       <workItem from="1638804138734" duration="78000" />
       <workItem from="1638804227117" duration="14000" />
+      <workItem from="1638804285041" duration="4093000" />
     </task>
     <task id="LOCAL-00001" summary="x scroll bar is weg en de contact info text is iets kleiner dan dat het was">
       <created>1638804014383</created>
