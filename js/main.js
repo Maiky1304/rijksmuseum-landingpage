@@ -13,13 +13,3 @@ $(window).scroll(event => {
         }
     }
 });
-
-const menuButton = document.querySelector('.mobile-menu');
-const hamburger = document.querySelector('.hamburger');
-const cross = document.querySelector('.cross');
-$(menuButton).click(event => {
-    const menu = document.querySelector('.mobile-menu-div');
-    menu.classList.toggle('hidden');
-    hamburger.classList.toggle('hidden');
-    cross.classList.toggle('hidden');
-})
