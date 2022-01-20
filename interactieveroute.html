@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museum Online - Interactieve Route</title>
+    <!-- CSS & Fonts -->
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/Rijksmuseum-Normal.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/Rijksmuseum-Bold.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/interactieveroute.css" />
+    <link rel="stylesheet" href="styles/fontfaces.css" />
+    <link rel="stylesheet" href="styles/utilities.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__button__wrapper">
+          <a href="index.html" class="header__button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+            Terug naar website
+          </a>
+        </div>
+        <div class="header__image__wrapper">
+          <img src="images/rijkslogo-black.png" />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__wrapper">
+        <div class="main__image__wrapper">
+          <figure class="main__image__figure">
+            <img id="image" src="images/interactieveroute/1.jpg" />
+            <button style="display: none" id="north">Noord</button>
+            <button style="display: none" id="east">Oost</button>
+            <button style="display: none" id="south">Zuid</button>
+            <button style="display: none" id="west">West</button>
+            <figcaption id="imageCaption">(1) Voorhal</figcaption>
+          </figure>
+        </div>
+        <div class="main__tools__wrapper">
+          <form id="navigation-form" class="main__tools__navigation__wrapper">
+            <label for="location">Waar wil je naartoe?</label>
+            <input
+              type="number"
+              min="1"
+              max="6"
+              name="location"
+              id="location"
+              placeholder="Getal tussen 1-6"
+              required
+            />
+          </form>
+          <figure class="line"></figure>
+          <div class="main__tools__map__wrapper">
+            <img src="images/interactieveroute/plattegrond.png" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <span class="footer__title">Beroepsopdracht Museum Online</span>
+      <div class="footer__authors">
+        <span>Joeri Schenk</span>
+        <span>Maiky Perlee</span>
+      </div>
+    </footer>
+
+    <script src="js/interactieveroute.js"></script>
+  </body>
+</html>
