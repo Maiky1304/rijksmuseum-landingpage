@@ -50,6 +50,25 @@ a {
   color: white;
 }
 
+.lang__selector {
+  padding: 10px;
+  background: black;
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+}
+
+.lang__selector > select {
+  font-size: 130%;
+  padding: 10px;
+  background: white;
+  border: none;
+}
+
+.lang__selector > select:focus {
+  outline: none;
+}
+
 .navbar-links > li:hover {
   -webkit-transition: 0.5s all;
   -o-transition: 0.5s all;

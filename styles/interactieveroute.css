@@ -41,6 +41,7 @@ html {
 body {
   font-family: RijksText, Arial, sans-serif;
   font-weight: 400;
+  font-size: 1.2vw;
   max-width: 95vw;
 }
 
@@ -57,13 +58,17 @@ body {
   padding: 15px 30px;
   background: black;
   color: white;
-  font-size: 30px;
+  font-size: 130%;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.header__image__wrapper > img {
+  height: 4vw;
 }
 
 .header__button > svg {
@@ -97,7 +102,7 @@ body {
   background: rgba(0, 0, 0, 0.75);
   color: white;
   padding: 10px;
-  font-size: 18px;
+  font-size: 110%;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -146,14 +151,14 @@ body {
   position: absolute;
   bottom: 25px;
   left: 25px;
-  font-size: 24px;
+  font-size: 140%;
   background: rgba(0, 0, 0, 0.75);
   padding: 10px;
 }
 
 .main__image__figure > img {
-  width: 900px;
-  height: 600px;
+  width: 55vw;
+  height: 60vh;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -162,7 +167,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 0 150px;
+  padding-right: 50px;
   gap: 50px;
 }
 
@@ -174,8 +179,8 @@ body {
 }
 
 .main__tools__map__wrapper > img {
-  width: 495px;
-  height: 350px;
+  width: 25vw;
+  height: 35vh;
   border-radius: 15px;
 }
 
@@ -185,7 +190,7 @@ body {
 }
 
 .main__tools__navigation__wrapper > label {
-  font-size: 46px;
+  font-size: 180%;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -196,7 +201,7 @@ body {
   border: 4px solid #fff;
   border-radius: 15px;
   padding: 10px;
-  font-size: 18px;
+  font-size: 120%;
 }
 
 .main__tools__navigation__wrapper > input[type="number"]:focus {
@@ -208,14 +213,59 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  padding: 20px;
   font-weight: 700;
 }
 
 .footer__title {
-  font-size: 18px;
+  font-size: 120%;
 }
 
 .footer__authors {
-  font-size: 16px;
+  font-size: 110%;
+}
+
+@media only screen and (max-width: 1750px) {
+  .main__wrapper {
+    flex-direction: column;
+  }
+
+  .main__tools__wrapper {
+    padding-bottom: 50px;
+    padding-right: 0;
+  }
+
+  .main__tools__navigation__wrapper > label {
+    font-size: 400%;
+  }
+
+  .main__tools__map__wrapper > img {
+    width: 40vh;
+    height: 50vw;
+  }
+
+  .main__image__figure > img {
+    width: 80vw;
+    height: 60vw;
+  }
+
+  .header__button {
+    font-size: 250%;
+  }
+
+  .header__wrapper {
+    align-items: center;
+  }
+
+  .header__image__wrapper > img {
+    height: 5vw;
+  }
+
+  .footer__title {
+    font-size: 220%;
+  }
+
+  .footer__authors {
+    font-size: 210%;
+  }
 }

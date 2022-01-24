@@ -21,7 +21,7 @@ const directions = {
 const images = [
   {
     title: "Voorhal",
-    image: "images/interactieveroute/1.jpg",
+    image: "../images/interactieveroute/1.jpg",
     directions: {
       north: 2,
       east: 6,
@@ -29,7 +29,7 @@ const images = [
   },
   {
     title: "Ere Gallerij",
-    image: "images/interactieveroute/2.jpg",
+    image: "../images/interactieveroute/2.jpg",
     directions: {
       north: 3,
       south: 1,
@@ -37,7 +37,7 @@ const images = [
   },
   {
     title: "Nachtwacht",
-    image: "images/interactieveroute/3.jpg",
+    image: "../images/interactieveroute/3.jpg",
     directions: {
       north: 4,
       south: 2,
@@ -45,21 +45,21 @@ const images = [
   },
   {
     title: "Beelden Gallerij",
-    image: "images/interactieveroute/4.jpg",
+    image: "../images/interactieveroute/4.jpg",
     directions: {
       south: 3,
     },
   },
   {
     title: "Bibliotheek",
-    image: "images/interactieveroute/5.jpg",
+    image: "../images/interactieveroute/5.jpg",
     directions: {
       south: 6,
     },
   },
   {
     title: "Poppenhuis",
-    image: "images/interactieveroute/6.jpg",
+    image: "../images/interactieveroute/6.jpg",
     directions: {
       north: 5,
       west: 1,
