@@ -106,7 +106,42 @@
           >Lees meer</a
         >
       </div>
-      <div class="image"></div>
+      <div class="image slider">
+        <button
+          class="slider-button"
+          id="slider-previous"
+          onclick="previousImage()"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </button>
+        <button class="slider-button" id="slider-next" onclick="nextImage()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+      </div>
     </section>
     <section class="information" id="tentoonstelling">
       <div class="container">
@@ -258,6 +293,7 @@
       </div>
     </footer>
     <script src="../js/main.js"></script>
+    <script src="../js/slider.js" defer></script>
   </body>
   <script defer>
     localStorage.setItem("lang", "en");
