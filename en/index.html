@@ -39,8 +39,8 @@
     <a href="#top" class="top-btn hidden">^</a>
     <header id="top" class="navbar">
       <nav>
-        <ul class="navbar-nav-ul">
-          <div class="navbar-links">
+        <div class="navbar-nav-ul">
+          <ul class="navbar-links">
             <li>
               <a href="#geschiedenis">History</a>
             </li>
@@ -50,13 +50,13 @@
             <li>
               <a href="#bezoekersinformatie">Visitors</a>
             </li>
-          </div>
-          <div class="navbar-links-right">
+          </ul>
+          <ul class="navbar-links">
             <li>
               <a href="#contactinformatie">Contact</a>
             </li>
             <li>
-              <a href="interactieveroute.html" class="ir-button">
+              <a href="./interactieveroute.html" class="ir-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -73,13 +73,13 @@
                 <span>View museum from inside?</span>
               </a>
             </li>
-          </div>
-        </ul>
+          </ul>
+        </div>
       </nav>
       <section class="hero">
         <!-- Hidden for SEO -->
         <h1 class="hidden">Rijksmuseum</h1>
-        <img class="rijks-logo" src="../images/rijkslogo.png" />
+        <img class="rijks-logo" src="../images/rijkslogo.png" alt="?" />
       </section>
     </header>
     <section class="information" id="geschiedenis">
@@ -277,11 +277,11 @@
     </section>
     <footer class="footer">
       <div class="sponsoren">
-        <img src="../images/m-ocw-nl.svg" class="ocw" />
-        <img src="../images/philips.svg" class="ocw" />
-        <img src="../images/vrienden-loterij.svg" class="ocw" />
-        <img src="../images/ing.svg" class="ocw" />
-        <img src="../images/kpn-logo-white.svg" class="ocw" />
+        <img src="../images/m-ocw-nl.svg" class="ocw" alt="?" />
+        <img src="../images/philips.svg" class="ocw" alt="?" />
+        <img src="../images/vrienden-loterij.svg" class="ocw" alt="?" />
+        <img src="../images/ing.svg" class="ocw" alt="?" />
+        <img src="../images/kpn-logo-white.svg" class="ocw" alt="?" />
       </div>
       <div class="footer-credits">
         <h3 class="footer-credits-title">Beroepsopdracht Museum Online</h3>
@@ -294,8 +294,8 @@
     </footer>
     <script src="../js/main.js"></script>
     <script src="../js/slider.js" defer></script>
+    <script>
+      localStorage.setItem("lang", "en");
+    </script>
   </body>
-  <script defer>
-    localStorage.setItem("lang", "en");
-  </script>
 </html>

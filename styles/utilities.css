@@ -31,6 +31,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
+  transition: 0.4s all;
 }
 
 .slider-button {
@@ -47,4 +48,8 @@
 
 .slider-button:active {
   color: rgba(255, 255, 255, 0.8);
+}
+
+ul {
+  list-style: none;
 }
