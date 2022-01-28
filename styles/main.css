@@ -501,14 +501,16 @@ p.text-bottom {
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .navbar-nav-ul {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .rijks-logo {
     width: 331px;
     height: 40px;
-  }
-
-  .navbar-links {
-    display: none;
   }
 
   .information {
